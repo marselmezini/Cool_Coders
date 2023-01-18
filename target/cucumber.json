@@ -1,0 +1,330 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify home page link is displayed",
+        "description": "",
+        "id": "this-feature-is-to-verify-button-and-links-in-home-page;verify-home-page-link-is-displayed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 956216100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 8
+                }
+              ],
+              "location": "homeclass.launch(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5624572200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Verify home link is displayed",
+            "match": {
+              "location": "homeclass.verify_home_link_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@home"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Verify cart link is displayed",
+        "description": "",
+        "id": "this-feature-is-to-verify-button-and-links-in-home-page;verify-cart-link-is-displayed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 194546800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Launch \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 8
+                }
+              ],
+              "location": "homeclass.launch(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5443049300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify  cart is displayed",
+            "match": {
+              "location": "homeclass.verify_cart_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@cart"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Verify Contact link is in function",
+        "description": "",
+        "id": "this-feature-is-to-verify-button-and-links-in-home-page;verify-contact-link-is-in-function",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 208324300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Launch \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 8
+                }
+              ],
+              "location": "homeclass.launch(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5110489300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click contact button",
+            "match": {
+              "location": "homeclass.click_contact_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5350314600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Verify new message window is displayed",
+            "match": {
+              "location": "homeclass.verify_new_message_window_is_displayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@contact"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Verify user is log in",
+        "description": "",
+        "id": "this-feature-is-to-verify-button-and-links-in-home-page;verify-user-is-log-in",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2360965700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Launch \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 8
+                }
+              ],
+              "location": "homeclass.launch(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5124089000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click login button",
+            "match": {
+              "location": "homeclass.click_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15261207200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User type credentials \"\u003cUsername\u003e\" \"\u003cPassword\u003e\" and click login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cUsername\u003e",
+                  "offset": 23
+                },
+                {
+                  "val": "\u003cPassword\u003e",
+                  "offset": 36
+                }
+              ],
+              "location": "homeclass.user_type_credentials_and_click_login(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2515261500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Verify user is logged in",
+            "match": {
+              "location": "homeclass.verify_user_is_logged_in()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Verify item is displayed in cart",
+        "description": "",
+        "id": "this-feature-is-to-verify-button-and-links-in-home-page;verify-item-is-displayed-in-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 212156000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Launch \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 8
+                }
+              ],
+              "location": "homeclass.launch(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5317452100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Click Samsung Galaxy S7",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 22
+                }
+              ],
+              "location": "homeclass.click_Samsung_Galaxy_S(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3260384900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Add item in cart",
+            "match": {
+              "location": "homeclass.add_item_in_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5436912100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Click cart",
+            "match": {
+              "location": "homeclass.click_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3316434200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Verify item is in cart",
+            "match": {
+              "location": "homeclass.verify_item_is_in_cart()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 26,
+            "name": "@item"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is to verify button and links in home page",
+    "description": "",
+    "id": "this-feature-is-to-verify-button-and-links-in-home-page",
+    "keyword": "Feature",
+    "uri": "home.feature"
+  }
+]
